@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap");
+#locationContainer {
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #d2e054;
+}
+
+#locationContainer .locationElement {
+  width: 600px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 30px;
+  color: #d2e054;
+  text-shadow: 0 0 10px #d2e054;
+  -webkit-box-shadow: 0 0 10px #050505;
+          box-shadow: 0 0 10px #050505;
+  border-right: 50px solid #d2e054;
+  cursor: pointer;
+}
+
+#locationContainer .locationElement:hover {
+  -webkit-box-shadow: 0 0 10px #d2e054;
+          box-shadow: 0 0 10px #d2e054;
+  background: none;
+  background-color: #d2e054;
+  color: #252525;
+  text-shadow: 0 0 2px #252525;
+}
+
+#locationContainer .locationElement div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 0.2em;
+}
+
+#locationContainer .locationElement div p {
+  font-size: 22px;
+}
+
+#locationContainer .locationElement div p:first-child {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#locationContainer .locationElement img {
+  height: 150px;
+}
+/*# sourceMappingURL=Locations.css.map */

@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+@font-face {
+    font-family: 'get_schwiftyregular';
+    src: url('get_schwifty-webfont.woff2') format('woff2'),
+         url('get_schwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+
+.description {
+    width: 90%;
+    height: 50%;
+    padding-top: 5%;
+    color: #d2e054;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.1em;
+    position: relative;
+    left: 50px;
+
+    h1{
+        text-align: left;
+    }
+    
+    p {
+        padding: 10px 0 20px 0;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 1.3em;
+    }
+}
+

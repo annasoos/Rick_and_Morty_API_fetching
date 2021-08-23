@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+@font-face {
+    font-family: 'get_schwiftyregular';
+    src: url('get_schwifty-webfont.woff2') format('woff2'),
+         url('get_schwifty-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
+
+body {
+    background-image: url(media/wallpaper.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: #252525;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    #root {
+        width: 50%;
+        height: 100%;
+
+        //pagination styling start
+        .MuiPagination-root{
+            height: 50px;
+            width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0 20px 50px;
+        
+            font-family: "Source Sans Pro", sans-serif;
+
+            .MuiPagination-ul{
+                width: 100%;
+                justify-content: space-evenly;
+                padding: 100px 0;
+
+                button, .MuiPaginationItem-ellipsis{
+                    //width: 35px;
+                    //height: 35px;
+                    display: flex;
+                    background-color: #d2e054;
+                    box-shadow: 0 0 10px #d2e054;
+                    font-size: 16px;
+                    text-shadow: 0 0 0.3px #252525;
+
+                    &:hover{
+                        color: #d2e054;
+                        background-color: #25252573;
+                        text-shadow: 0 0 0.5px #d2e054;
+                    }
+
+                    &:active{
+                        color: #d2e054;
+                        background-color: #25252573;
+                        text-shadow: 0 0 0.5px #d2e054;
+                    }
+                }
+            }
+        }
+        //pagination styling end
+
+        .header {
+            width: 800px;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 5%;
+
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                #logo{
+                    width: 260px;
+                }
+
+                #middleFinger{
+                    width: 260px;
+                }
+            }
+
+            .button-container{
+                width: 50%;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+
+                button>a:link, button>a:visited {
+                    text-decoration: none;
+                    color: inherit;
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: black;
+                }
+            }
+
+            .button-container > button {
+                width: 230px;
+                height: 90px;
+                
+                font-family: 'get_schwiftyregular';
+                font-size: 28pt;
+                background-color: #252525;
+                color: #d2e054;
+                border: 5px solid #d2e054;
+                text-shadow: 0 0 10px #d2e054;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: black;
+            }
+
+            .button-container > button:hover {
+                background-color: #d2e054;
+                color: #12b0c9;
+                border: 5px solid #d2e054;
+                box-shadow:  0 0 10px #d2e054;
+            }
+        }
+    }
+}
