@@ -19,3 +19,5 @@ Rick and Morty universe is kinda big with lot of characters and locations. This 
 - Styled-components instead of SCSS
 - Work on responsivity
 - Present a loading mask while data is being fetched
+
+![rickandmorty](https://user-images.githubusercontent.com/83576776/130461097-479bdafa-dc27-404e-b762-3c463784e3f3.png)
