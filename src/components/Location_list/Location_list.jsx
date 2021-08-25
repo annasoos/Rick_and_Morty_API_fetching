@@ -32,7 +32,7 @@ const LocationList = () => {
   };
 
   if (locationsDataList !== undefined) {
-    // csak akkor fusson le a .map iteráció ha a visszakapott objektum nem undefined (tehát ha már végigfutott a fetch)
+    // should rewrite using async await
 
     locationsResultElement = locationsDataList.map((location, index) => (
       <div key={index}>

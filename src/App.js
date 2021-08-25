@@ -29,29 +29,18 @@ function App() {
 
       <Switch>
           <Route exact path="/">
-            <LandingPageF />
+            <LandingPage />
           </Route>
           <Route exact path="/characters">
-            <CharactersF />
+            <CharacterList />
           </Route>
           <Route exact path="/locations">
-            <LocationsF />
+            <LocationList />
           </Route>
       </Switch>
       
     </Router>
   )
-}
-
-function LandingPageF() {
-  return (<LandingPage />);
-}
-function CharactersF() {
-  return (<CharacterList />);
-}
-
-function LocationsF() {
-  return (<LocationList />);
 }
 
 export default App;

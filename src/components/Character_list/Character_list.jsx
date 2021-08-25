@@ -35,7 +35,7 @@ const CharacterList = () => {
 
 
 
-  if (dataList !== undefined) { // csak akkor fusson le a .map iteráció ha a visszakapott objektum nem undefined (tehát ha már végigfutott a fetch)
+  if (dataList !== undefined) { // should rewrite using async await method
 
     resultElement = dataList.map((character, index) => (
       <div key={index}>

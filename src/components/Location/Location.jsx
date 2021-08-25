@@ -1,16 +1,7 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Location.css"
 
 const Location = (props) => {
-
-	const residentList = [props.data.residents.map((resident, index) => {
-		fetch(resident)
-		.then((response) => {
-			return response.json();
-		})
-		.then((json) => json.name);
-	})]  // CORS HIBA MIATT NEM SIKERÜLT
-
 
     return (
         <div className="location-card closed-card" id={props.id} onClick={() => props.event()}>
