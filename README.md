@@ -12,11 +12,17 @@ Rick and Morty universe is kinda big with lot of characters and locations. This 
 - At the beginnig and the end of the lists there are pagination bars where we can switch between pages.
 - Modal component shows more specific information about the character/location when we click on a card.
 
+### Built with
+
+- React.js
+- Semantic HTML5 markup
+- SCSS
+- Material UI
+
 ## TODO / Additional ideas
 
 - Modify list fetching using async-await function
 - Use react modal npm package instead of class name toggle in case of Character and Location components
-- Styled-components instead of SCSS
 - Improve responsivity
 - Present a loading mask while data is being fetched
 
